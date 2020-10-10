@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+}
+
+.companyname{
+    display: flex;
+    margin:5vh 2vw;
+}
+.company_name{
+    margin:0 3vw;
+}
+.headimage{
+    margin:0 3vw;
+
+
+}
+.Edit_Company_Info{
+    display:flex;
+}
+input[type="text" i] {
+    margin:2vh 3vw;
+
+}
+input[type="submit"] {
+    margin:2vh 3vw;
+
+}
+input[type="file"] {
+    border:white dashed 3px;
+    padding:5vw;
+}
+
+.addimages{
+    margin:8vh 0;
+}
+.addimages h1{
+    margin:5vh 0;
+}
+/* .delete_image_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+.row-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-thumbnail{
+    width:10vw;
+    height: 20vh;
+}
+
+
+@media screen and (max-width: 1200px){
+    .Edit_Company_Info{
+        display:block;
+    }
+    .row-grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .img-thumbnail{
+        width:60vw;
+    }
+    .companyname{
+        display: block;
+        margin:5vh 2vw;
+    }
+}

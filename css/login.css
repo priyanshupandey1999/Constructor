@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color:white;
+}
+#email{
+    border: rgb(28, 97, 245) solid 3px;
+    border-radius: 20px;
+    margin: 3vh 0;
+    padding:5px;
+    background-color: transparent;
+    color:white;
+    width:350px;
+}
+#password1{
+    border: rgb(28, 97, 245) solid 3px;
+    border-radius: 20px;
+    margin: 3vh 0;
+    padding:5px;
+    background-color: transparent;
+    color:white;
+    width:350px;
+
+}
+.form-body{
+    display: block;
+}
+.alert{
+    color:red;
+}
+.form-head{
+    font-size: 30px;
+}

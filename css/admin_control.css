@@ -1,0 +1,115 @@
+body{
+    /* overscroll-behavior-y: auto; */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.card1{
+    border:2px solid;
+}
+.one{
+    max-height: 100px;
+    max-width: 100px;
+    background-size: cover;
+    margin:0;
+}
+.port-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    margin:0;
+}
+.heading2{
+    margin:5vh 0;
+}
+.heading{
+    margin:5vh 0;
+}
+.complete_navbar{
+
+    position: relative;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --black: #130f0d;
+  --primary: #fd951f;
+  --white: #f0f0f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+button,
+input {
+  font-family: Roboto, sans-serif;
+}
+
+main{
+  text-align:center;
+}
+
+
+
+.tab-links {
+  margin-bottom: 32px;
+}
+
+button {
+  position: relative;
+  padding: 16px;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 12px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary);
+  transition: .4s;
+}
+
+button:hover::after,
+button.active::after {
+  width: 100%;
+}
+
+.tabcontent{
+    display: none;
+}
+.PortfolioImage{
+    display: block;
+}
+
+.tab-content > section {
+  animation: up 1s;
+}
+
+
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  
+  to {
+     opacity: 1;
+  }
+} 

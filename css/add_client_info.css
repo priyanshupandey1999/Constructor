@@ -1,0 +1,68 @@
+.client_info_add_form{
+    display: block;
+}
+.addclientinfo{
+    display: flex;
+}
+.companyname p{
+    margin:5vh 0;
+    font-size: 30px;
+}
+.companyname input{
+    border: rgb(0, 89, 255) solid 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    width:max(200px,15vw);
+    padding: 5px;
+    margin-bottom: 10vh;
+    color:white;
+}
+.headimage{
+    margin:0 5vw;
+    /* background-color:rgb(132, 142, 146) ; */
+}
+.headimage p{
+    font-size: 25px;
+    margin: 3vh 0;
+}
+.headimage input{
+    border: white dashed 2px;
+    border-radius: 5px;
+    /* margin: 2vh 20vw; */
+    /* width:max(200px,15vw); */
+    /* height:40vh;
+    width:60vw; */
+    padding: 15vh 10vw;
+    margin:5vh 0;
+}
+.galleryimage{
+    margin:0 0 5vw 0;
+}
+.galleryimage p{
+    font-size: 25px;
+    margin: 3vh 0;
+}
+#image{
+    border: white dashed 2px;
+    border-radius: 5px;
+    /* margin: 2vh 20vw; */
+    /* width:max(200px,15vw); */
+    /* height:40vh;
+    width:60vw; */
+    padding: 15vh 10vw;
+    margin:5vh 0;
+}
+#insert{
+    padding:10px;
+    background-color: rgb(0, 119, 255);
+    color:white;
+    width: 100px;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1200px){
+    .addclientinfo{
+        display: block;
+    }
+
+}
+

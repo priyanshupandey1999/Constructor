@@ -1,0 +1,29 @@
+.logo2{
+    float: left;
+}
+.logout_welcome{
+    display:flex;
+    float:right;
+    margin:5vh
+}
+.admin_nav{
+    padding-bottom: 20vh;
+}
+.logo img{
+    height:13vh;
+    width:200px;
+}
+@media screen and (max-width: 1200px){
+    .logo2{
+        float: none;
+    }
+    .logout_welcome{
+        display:flex;
+        float:none;
+        margin:5vh
+    }
+    .admin_nav{
+        padding-bottom: 0vh;
+    }
+
+}
